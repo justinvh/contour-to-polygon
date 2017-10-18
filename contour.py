@@ -2,12 +2,7 @@
 Simple state machine for walking a contour in a clockwise direction
 as a raster to form a polygon.
 """
-import numpy as np
-import pprint
 import logging
-
-from collections import defaultdict, Counter
-
 
 logger = logging.getLogger(__name__)
 
