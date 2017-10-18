@@ -1,5 +1,6 @@
 """
-Solves for a polygon that wraps a contour in pixel-space
+Simple state machine for walking a contour in a clockwise direction
+as a raster to form a polygon.
 """
 import numpy as np
 import pprint
